@@ -1,12 +1,10 @@
 //import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { BsSearch } from 'react-icons/bs';
 import NavBanner from './NavBanner';
-// import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa';
-// import { BsFillPersonLinesFill } from 'react-icons/bs';
-// import { useRouter } from 'next/router';
+
 //import NavLogo from '../public/assets/1.jpg'
 
 const Navbar = () => {
