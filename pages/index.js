@@ -1,6 +1,7 @@
 import Banner from '@/components/Banner'
 import Head from 'next/head'
 import Company from './company'
+import Services from './services'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
      <Banner/>
      <Company/>
+     <Services/>
     </>
   )
 }

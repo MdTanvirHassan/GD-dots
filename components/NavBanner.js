@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsFillTelephoneFill } from 'react-icons/bs';
-import { AiOutlineMail} from 'react-icons/ai';
+import {AiFillMail} from 'react-icons/ai';
 import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const NavBanner = () => {
@@ -20,7 +20,7 @@ const NavBanner = () => {
                     rel='noreferrer'
                     className='flex space-x-2'
                   >
-                    <AiOutlineMail className='text-xl'/>
+                    <AiFillMail className='text-xl'/>
                      <span className='hidden md:block'>tarekrahim100@gmail.com</span>
                     </a>
                 </li>
@@ -64,7 +64,7 @@ const NavBanner = () => {
                 target="_blank"
                 rel="noreferrer">
                 <div className="text-xl  cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <AiOutlineMail />
+                  <AiFillMail/>
                 </div>
               </a>
             </li>
