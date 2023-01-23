@@ -1,9 +1,10 @@
-//import Image from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { BsSearch } from 'react-icons/bs';
 import NavBanner from './NavBanner';
+import NavLogo from '../public/assets/5.png';
 
 
 
@@ -11,7 +12,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('transparent');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [linkColor, setLinkColor] = useState('#ffffff');
   // const [position, setPosition] = useState('fixed')
   const [navBanner, setNavBanner] = useState(true);
   
@@ -26,10 +27,12 @@ const Navbar = () => {
         setShadow(true);
         setNavBg('#ffffff');
         setNavBanner(false);
+        setLinkColor("#000000");
       } else {
         setShadow(false);
         setNavBg('transparent');
         setNavBanner(true);
+        setLinkColor("#ffffff")
       }
     };
     window.addEventListener('scroll', handleShadow);
@@ -50,15 +53,15 @@ const Navbar = () => {
       }>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <div className="mx-10">
-            {/* <Image
+          <div className="mx-10 flex space-x-2">
+            <Image
               src={NavLogo}
               alt="/"
-              width="125"
-              height="50"
+              width="40"
+              height="10"
               className="cursor-pointer"
-            /> */}
-            GD-dots
+            />
+            <h3 className='text-white font-bold text-xl' style={{ color: `${linkColor}` }}>GD-dots</h3>
           </div>
         </Link>
         <div>
@@ -124,7 +127,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4 text-gray-500">
-                Let&#39;s build something legendary together
+                Lorem ipsum dolor sit amet consectetur.
               </p>
             </div>
           </div>
