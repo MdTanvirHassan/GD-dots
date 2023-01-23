@@ -10,7 +10,7 @@ const NavBanner = () => {
         <div className="flex mx-10">
             <ul className='flex text-white'>
                 <li className="flex text-white space-x-2">
-                    <FiPhoneCall className='text-xl'/> <span>+880 13456189</span>
+                    <FiPhoneCall className='text-xl'/> <span>+880 13012-53885</span>
                 </li>
                 <li className="flex text-white mx-4 space-x-2">
                 <a

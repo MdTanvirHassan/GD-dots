@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { BsSearch } from 'react-icons/bs';
 import NavBanner from './NavBanner';
 
-//import NavLogo from '../public/assets/1.jpg'
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -13,6 +13,7 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState('transparent');
   const [linkColor, setLinkColor] = useState('#1f2937');
   // const [position, setPosition] = useState('fixed')
+  const [navBanner, setNavBanner] = useState(true);
   
 
   const handleNav = () => {
@@ -24,9 +25,11 @@ const Navbar = () => {
       if (window.scrollY >= 90) {
         setShadow(true);
         setNavBg('#ffffff');
+        setNavBanner(false);
       } else {
         setShadow(false);
         setNavBg('transparent');
+        setNavBanner(true);
       }
     };
     window.addEventListener('scroll', handleShadow);
@@ -34,7 +37,7 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="">
+    <div className={navBanner? " w-full z-10":"fixed w-full -top-96"}>
     <NavBanner/>
     </div>
     

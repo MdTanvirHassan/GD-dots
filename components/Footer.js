@@ -1,7 +1,5 @@
 //import Image from 'next/image'
 import React from 'react'
-//import NavLogo from '../public/Assets/navLogo.png'
-import {FaFacebook} from 'react-icons/fa'
 import Link from 'next/link'
 
 const Footer = () => {
