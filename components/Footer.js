@@ -5,9 +5,9 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-black/95 text-white body-font shadow-lg border-t-2">
+      <footer className="bg-black text-white body-font shadow-lg border-t-2">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div className="w-1/3 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+    <div className="md:w-1/3 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
     <Link href={'/'}><div className="flex title-font font-medium items-center md:justify-start justify-center text-white cursor-pointer">
         {/* <Image src={NavLogo} alt=".." width={200} height={20}/> */}
         <span className="ml-3 text-xl text-white"> GD dots</span>
@@ -55,7 +55,9 @@ const Footer = () => {
       </div>
       
     </div>
+    
   </div>
+  <hr className='text-white mx-20'/>
   <div className="bg-black text-center justify-center items-center">
     <div className="container m-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row text-center justify-center items-center">
       <p className="text-white text-sm text-center tracking-widest space-x-36 sm:text-left">

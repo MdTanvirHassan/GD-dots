@@ -22,7 +22,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleShadow = () => {
-      if (window.scrollY >= 90) {
+      if (window.scrollY >= 40) {
         setShadow(true);
         setNavBg('#ffffff');
         setNavBanner(false);

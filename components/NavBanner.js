@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiPhoneCall } from 'react-icons/fi';
+import { BsFillTelephoneFill } from 'react-icons/bs';
 import { AiOutlineMail} from 'react-icons/ai';
 import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
@@ -10,7 +10,8 @@ const NavBanner = () => {
         <div className="flex mx-10">
             <ul className='flex text-white'>
                 <li className="flex text-white space-x-2">
-                    <FiPhoneCall className='text-xl'/> <span>+880 13012-53885</span>
+                    <BsFillTelephoneFill className='text-xl'/>
+                     <span className='hidden md:block'>+880 13012-53885</span>
                 </li>
                 <li className="flex text-white mx-4 space-x-2">
                 <a
@@ -19,13 +20,14 @@ const NavBanner = () => {
                     rel='noreferrer'
                     className='flex space-x-2'
                   >
-                    <AiOutlineMail className='text-xl'/> <span>tarekrahim100@gmail.com</span>
+                    <AiOutlineMail className='text-xl'/>
+                     <span className='hidden md:block'>tarekrahim100@gmail.com</span>
                     </a>
                 </li>
             </ul>
         </div>
         <div className="flex  mx-5 justify-end">
-            <ul className="hidden md:flex">
+            <ul className="flex md:flex">
             <li className="ml-5 text-sm uppercase text-white hover:text-white">
               <a
                 href="https://www.linkedin.com/in/md-tanvir-hassan-490253240"
