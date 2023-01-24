@@ -1,7 +1,10 @@
-import Banner from '@/components/Banner'
-import Head from 'next/head'
-import Company from './company'
-import Services from './services'
+import Head from "next/head";
+import Company from "./company";
+import Services from "./services";
+import Banner from '@/components/Banner';
+import Work from '@/components/Work';
+import Clients from "@/components/Clients";
+
 
 export default function Home() {
   return (
@@ -12,9 +15,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/5.png" />
       </Head>
-     <Banner/>
-     <Company/>
-     <Services/>
+      <Banner />
+      <Company />
+      <Services />
+      <Work/>
+      <Clients/>
     </>
-  )
+  );
 }
