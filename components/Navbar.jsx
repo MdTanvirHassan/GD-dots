@@ -78,17 +78,17 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="ml-7 text-sm uppercase ">
-                <Link href="/company">Company</Link>
+                <Link href="/#company">Company</Link>
               </li>
               <li className="ml-7 text-sm uppercase ">
-                <Link href="/services">Services</Link>
+                <Link href="/#services">Services</Link>
               </li>
               <li className="ml-7 text-sm uppercase ">
-                <Link href="/blogs">Blogs</Link>
+                <Link href="/#blogs">Blogs</Link>
               </li>
 
               <li className="ml-7 text-sm uppercase ">
-                <Link href="/contact">Contact</Link>
+                <Link href="/#newsletter">Contact</Link>
               </li>
               <li className="ml-7 text-sm uppercase ">
                 <Link href="/search">
@@ -151,28 +151,28 @@ const Navbar = () => {
                     Home
                   </li>
                 </Link>
-                <Link href="/company">
+                <Link href="/#company">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Company
                   </li>
                 </Link>
-                <Link href="/services">
+                <Link href="/#services">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Services
                   </li>
                 </Link>
-                <Link href="/blogs">
+                <Link href="/#blogs">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Blogs
                   </li>
                 </Link>
 
-                <Link href="/contact">
+                <Link href="/#contact">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Contact
                   </li>
                 </Link>
-                <Link href="/search">
+                <Link href="/#search">
                   <li onClick={() => setNav(false)} className="py-4 text-sm">
                     Search
                   </li>

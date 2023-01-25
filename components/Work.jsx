@@ -5,7 +5,7 @@ import Image from "next/image";
 import slider from "../public/assets/logo.png";
 import slider2 from "../public/assets/banner.png";
 import slider3 from "../public/assets/the.png";
-import slider4 from "../public/assets/cover.jpg";
+import slider4 from "../public/assets/cr.jpg";
 const Work = () => {
   return (
     <div id="work" className="">

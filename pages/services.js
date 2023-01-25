@@ -9,7 +9,7 @@ import Img6 from "../public/assets/6.png";
 
 const Services = () => {
   return (
-    <div id="services" className="bg-pink-50">
+    <div id="services" className="bg-pink-50 py-10">
       <section className="text-gray-600">
 
         <div className="container px-5 py-16 mx-auto">
