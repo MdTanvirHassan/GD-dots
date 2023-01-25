@@ -6,7 +6,7 @@ const Company = () => {
   return (
     <div id="company" className="pt-16">
       <section className="text-gray-600 ">
-        <div className=" px-4 py-16 mx-auto grid md:grid-cols-2 md:gap-x-20">
+        <div className=" px-4 md:px-12 py-16 mx-auto grid md:grid-cols-2 md:gap-x-20">
           <div className="grid md:grid-cols-2 md:gap-4  mt-auto mb-auto  content-start sm:pr-10">
             <div className="p-4 px-12  w-full mb-8">
               <div className="flex flex-wrap -m-4 text-center w-[266px] h-[164px]">

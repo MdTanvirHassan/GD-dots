@@ -11,9 +11,9 @@ const Footer = () => {
 
           <div className="mx-auto text-center md:text-left">
             <Link href={"/"}>
-              <div className="flex font-medium items-center md:justify-start justify-center text-white cursor-pointer">
+              <div className="flex font-medium items-center md:justify-start justify-center text-white cursor-pointer mb-5">
                 <Image src={Logo} alt=".." width={140} height={40}/>
-                {/* <span className="ml-3 text-xl text-white"> GD dots</span> */}
+                
               </div>
             </Link>
             <p className="mt-2 px- text-sm text-gray-300 ">
@@ -23,9 +23,9 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="-mb-10 md:mt-0 mt-10 md:px-24 md:text-left ustify-center items-center text-center">
+          <div className="-mb-10 md:mt-0 mt-10 md:px-24 md:text-left justify-center items-center text-center">
             <div className="w-full j px-4 ">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+              <h2 className="font-bold text-white tracking-widest text-sm mb-5">
                 Privacy & Terms
               </h2>
               <nav className="list-none mb-10">
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
 
             <div className="w-full justify-center items-center text-center md:text-start md:items-baseline md:justify-end md:pl-36 py-10 sm:py-0">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
+              <h2 className="font-bold text-white tracking-widest text-sm mb-5">
                 Quick Links
               </h2>
               <nav className="list-none mb-10">
