@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { BsSearch } from "react-icons/bs";
 import NavBanner from "./NavBanner";
-import NavLogo from "../public/assets/5.png";
+import NavLogo from "../public/assets/GD-Dots.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -48,21 +48,21 @@ const Navbar = () => {
             ? "fixed w-full h-20 shadow-md shadow-gray-400 z-[100] ease-in-out duration-300"
             : "fixed w-full h-20 z-[100]"
         }>
-        <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+        <div className="flex justify-between items-center w-full h-full px-1 2xl:px-16">
           <Link href="/">
-            <div className="mx-16 flex space-x-2">
+            <div className="mx-20 flex space-x-2">
               <Image
                 src={NavLogo}
                 alt="/"
-                width="40"
-                height="10"
+                width="140"
+                height="40"
                 className="cursor-pointer"
               />
-              <h3
+              {/* <h3
                 className="text-white font-bold text-xl"
                 style={{ color: `${linkColor}` }}>
                 GD-dots
-              </h3>
+              </h3> */}
             </div>
           </Link>
           <div>
