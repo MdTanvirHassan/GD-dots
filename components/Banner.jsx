@@ -20,42 +20,38 @@ const Banner = () => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        navigation={false}
         modules={[Autoplay]}
         className="mySwiper">
         <SwiperSlide>
           <Image
             src={slider2}
             alt=".."
-            className="w-full h-[20vh] md:h-[55vh]"
+            className="w-full h-[30vh] md:h-[94vh]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={slider}
             alt=".."
-            className="w-full h-[20vh] md:h-[55vh]"
+            className="w-full h-[30vh] md:h-[94vh]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={slider3}
             alt=".."
-            className="w-full h-[20vh] md:h-[55vh]"
+            className="w-full h-[30vh] md:h-[94vh]"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={slider4}
             alt=".."
-            className="w-full h-[20vh] md:h-[55vh]"
+            className="w-full h-[30vh] md:h-[94vh]"
           />
         </SwiperSlide>
-        {/* <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide> */}
+       
       </Swiper>
     </div>
   );

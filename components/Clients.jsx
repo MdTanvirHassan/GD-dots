@@ -9,7 +9,7 @@ import slider4 from "../public/assets/the.png";
 const Clients = () => {
   return (
     <div id="work" className="">
-      <div className="md:px-8 py-16 pt-5  mx-auto">
+      <div className="md:px-8 md:py-16 pt-5  mx-auto">
         <div className="flex flex-wrap w-full mb-8 flex-col items-center text-center ">
           <h3 className="text-3xl text-center uppercase tracking-tight border-b-4 px-2 border-orange-600">
             Our<span className="text-orange-600"> Clients </span>

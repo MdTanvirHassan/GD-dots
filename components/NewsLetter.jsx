@@ -3,7 +3,7 @@ import React from "react";
 
 const NewsLetter = () => {
   return (
-    <div id="newsletter" className=" py-12 bg-gray-100 m-0 px-0">
+    <div id="newsletter" className=" md:py-12 bg-gray-100 m-0 px-0">
       <div className="mb-8">
         <h3 className="text-3xl tracking-tight text-center">
           Join Our NewsLetter
