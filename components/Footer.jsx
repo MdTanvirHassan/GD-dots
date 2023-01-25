@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
             </div>
 
-            <div className="w-full justify-center  md:justify-end md:pl-36 py-10 sm:py-0">
+            <div className="w-full justify-center items-center text-center md:text-start md:items-baseline md:justify-end md:pl-36 py-10 sm:py-0">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
                 Quick Links
               </h2>

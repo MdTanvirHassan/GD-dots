@@ -1,39 +1,31 @@
-import React from 'react'
-import { useState, useEffect } from "react";
+import React from "react";
+//import { useState, useEffect } from "react";
 
 const NewsLetter = () => {
   return (
-    <div>
-        <h3 className='text-3xl uppercase tracking-wider text-center'> Join Our NewsLetter</h3>
-    </div>
-  )
-}
-
-export default NewsLetter
-
-
-
-
-  return (
-      <Col lg={12}>
-        <div className="newsletter-bx wow slideInUp">
-          <Row>
-            <Col lg={12} md={6} xl={5}>
-              <h3>Subscribe to our Newsletter<br></br> & Never miss latest updates</h3>
-              {status === 'sending' && <Alert>Sending...</Alert>}
-              {status === 'error' && <Alert variant="danger">{message}</Alert>}
-              {status === 'success' && <Alert variant="success">{message}</Alert>}
-            </Col>
-            <Col md={6} xl={7}>
-              <form onSubmit={handleSubmit}>
-                <div className="new-email-bx">
-                  <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
-                  <button type="submit">Submit</button>
-                </div>
-              </form>
-            </Col>
-          </Row>
+    <div className=" py-12 bg-gray-100 m-0 px-0">
+      <div className="mb-8">
+        <h3 className="text-3xl tracking-tight text-center">
+          Join Our NewsLetter
+        </h3>
+      </div>
+      <form className=" flex justify-center w-full px-4 md:px-56">
+        <div className="w-full ">
+          <input
+            type="email"
+            className="bg-white text-start border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-4 px-5"
+            placeholder="Submit Your Email Address"
+          />
         </div>
-      </Col>
-  )
-}
+
+        <button
+          type="button"
+          className="text-white bg-gradient-to-r from-orange-500 via-orange-500 to-orange-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300  font-medium rounded-lg text-sm px-5 py-0 text-center -ml-2">
+          Subscribe
+        </button>
+      </form>
+    </div>
+  );
+};
+
+export default NewsLetter;

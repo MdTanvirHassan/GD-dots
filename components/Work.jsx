@@ -9,7 +9,7 @@ import slider4 from "../public/assets/cover.jpg";
 const Work = () => {
   return (
     <div id="work" className="">
-      <div className="px-8 py-16 pt-5  mx-auto">
+      <div className="md:px-8 py-16 pt-5  mx-auto">
         <div className="flex flex-wrap w-full mb-5 flex-col items-center text-center">
           <h3 className="text-3xl text-center uppercase tracking-widest">
             <span className="text-orange-600">Our </span> Work

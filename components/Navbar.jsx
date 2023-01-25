@@ -50,13 +50,18 @@ const Navbar = () => {
         }>
         <div className="flex justify-between items-center w-full h-full px-1 2xl:px-16">
           <Link href="/">
-            <div className="mx-20 flex space-x-2">
+            <div className="mx-20 flex space-x-2"
+                style={{ backgroundColor: `${shadow}` }}>
               <Image
                 src={NavLogo}
                 alt="/"
                 width="140"
                 height="40"
-                className="cursor-pointer"
+                className={
+                  shadow
+                    ? "cursor-pointer bg-gray-200 px-1 py-2 rounded-md"
+                    : "cursor-pointer"
+                }
               />
               {/* <h3
                 className="text-white font-bold text-xl"
@@ -119,9 +124,13 @@ const Navbar = () => {
             <div>
               <div className="flex w-full items-center justify-between">
                 <Link href="/">
-                  <>
-                    <Image src={NavLogo} width="40" height="20" alt="/" />
-                  </>
+                  <div className={
+                  shadow
+                    ? "cursor-pointer bg-gray-200 px-1 py-2 rounded-md"
+                    : "cursor-pointer"
+                }>
+                    <Image src={NavLogo} width="140" height="40" alt="/" />
+                  </div>
                 </Link>
                 <div
                   onClick={handleNav}
