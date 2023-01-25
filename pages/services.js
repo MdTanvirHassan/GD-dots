@@ -21,7 +21,7 @@ const Services = () => {
 
           <div className="grid md:grid-cols-3 md:gap-4 -m-4 justify-center text-center items-center p-0 mx-auto px-0 md:px-32">
             <div className="w-full px-0 py-2 md:px-auto">
-              <div className="bg-white border border-gray-200 py-2 rounded-lg shadow-xl shadow-gray-400">
+              <div className="bg-white border border-gray-200 py-2 px-12 md:px-0 rounded-lg shadow-xl shadow-gray-400">
                 <div className="object-fill object-center w-40  inline-flex rounded-md">
                   <Image
                     src={Img}
@@ -35,8 +35,8 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="w-full px-0 py-2 md:px-px-auto">
-              <div className="bg-white border border-gray-200 py-2 rounded-lg shadow-xl shadow-gray-400">
+            <div className="w-full px-0 py-2 md:px-auto">
+              <div className="bg-white border border-gray-200 py-2 px-12 md:px-0 rounded-lg shadow-xl shadow-gray-400">
                 <div className="object-fill object-center w-40  inline-flex rounded-md">
                   <Image
                     src={Img2}
@@ -46,14 +46,13 @@ const Services = () => {
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
                   {" "}
-                  Motion
-                  <br /> Graphics
+                  Motion <br /> Graphics
                 </h2>
               </div>
             </div>
 
-            <div className="w-full px-0 py-2 md:px-px-auto">
-              <div className="bg-white border border-gray-200 py-2 rounded-lg shadow-xl shadow-gray-400">
+            <div className="w-full px-0 py-2 md:px-auto">
+              <div className="bg-white border border-gray-200 py-2 px-12 md:px-0 rounded-lg shadow-xl shadow-gray-400">
                 <div className="object-fill object-center w-40  inline-flex rounded-md">
                   <Image
                     src={Img3}
@@ -67,8 +66,8 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="w-full px-0 py-2 md:px-px-auto">
-              <div className="bg-white border border-gray-200 py-2 rounded-lg shadow-xl shadow-gray-400">
+            <div className="w-full px-0 py-2 md:px-auto">
+              <div className="bg-white border border-gray-200 py-2 px-12 md:px-0 rounded-lg shadow-xl shadow-gray-400">
                 <div className="object-fill object-center w-40  inline-flex rounded-md">
                   <Image
                     src={Img4}
@@ -82,8 +81,8 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="w-full px-0 py-2 md:px-px-auto">
-              <div className="bg-white border border-gray-200 py-2 rounded-lg shadow-xl shadow-gray-400">
+            <div className="w-full px-0 py-2 md:px-auto">
+              <div className="bg-white border border-gray-200 py-2 px-12 md:px-0 rounded-lg shadow-xl shadow-gray-400">
                 <div className="object-fill object-center w-40  inline-flex rounded-md">
                   <Image
                     src={Img5}
@@ -98,8 +97,8 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="w-full px-0 py-2 md:px-px-auto">
-              <div className="bg-white border border-gray-200 py-2 rounded-lg shadow-xl shadow-gray-400">
+            <div className="w-full px-0 py-2 md:px-auto">
+              <div className="bg-white border border-gray-200 py-2 px-12 md:px-0 rounded-lg shadow-xl shadow-gray-400">
                 <div className="object-fill object-center w-40  inline-flex rounded-md">
                   <Image
                     src={Img6}
